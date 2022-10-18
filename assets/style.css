@@ -74,7 +74,7 @@ p.heading {
 }
 
 body {
-    background: hsl(225, 100%, 94%) url(/assets/images/pattern-background-desktop.svg) repeat-x;
+    background: hsl(225, 100%, 94%) url(/Order-Summary-Component-using-CSS-Flexbox/assets/images/pattern-background-desktop.svg) repeat-x;
 }
 
 .order-summary {
