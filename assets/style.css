@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.CTA {
+    background-color: hsl(245, 75%, 52%);
+    color: #fff;
+    padding: 12px;
+    display: block;
+    width: 100%;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    border: 1px solid hsl(223, 47%, 23%);
+    box-shadow: 0px 10px 10px 2px hsl(225, 100%, 94%);
+}
+
+.CTA:hover {
+    opacity: 70%;
+    cursor: pointer;
+}
+
+.secondary-CTA {
+    text-align: center;
+}
+
+.secondary-CTA a {
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+}
+
+.secondary-CTA a:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+p, button, a{
+    font-family: 'Red Hat Display';
+}
+
+.center-item {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.text-12px {
+    font-size: 12px;
+}
+
+.mb-32 {
+    margin-bottom: 32px;
+}
+
+.mb-16 {
+    margin-bottom: 16px;
+}
+
+p.heading {
+    font-size: 24px;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+.description {
+
+}
+
+body {
+    background: hsl(225, 100%, 94%) url(/assets/images/pattern-background-desktop.svg) repeat-x;
+}
+
+.order-summary {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.order-summary-container {
+    width: 350px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0px 5px 1000px 0px hsl(224, 23%, 55%);
+    background-color: #fff;
+}
+
+.order-summary-container .hero-img{
+    width: 100%;
+    border-radius: 12px 12px 0 0;
+}
+
+.order-summary-info {
+    padding: 32px;
+}
+
+/* Plan container */
+
+.plan-selection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+    background-color: hsl(225, 100%, 98%);
+    font-size: 14px;
+    border-radius: 8px;
+}
+
+.plan-selection a {
+    color: hsl(245, 75%, 52%);
+}
+
+.plan-selection a:hover {
+    opacity: 60%;
+    text-decoration: none;
+}
+
+.plan {
+    display: flex;
+    align-items: center;
+}
+
+.plan p {
+    line-height: 1.7;
+}
+
+.plan-selection img {
+    margin-right: 12px;
+}
